@@ -1,0 +1,36 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# msmobs
+
+<!-- badges: start -->
+
+[![Codecov test
+coverage](https://codecov.io/gh/zabore/msmobs/graph/badge.svg)](https://app.codecov.io/gh/zabore/msmobs)
+[![R-CMD-check](https://github.com/zabore/msmobs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/zabore/msmobs/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+msmobs provides tools to fit marginal structural models to observational
+data, including estimating the weights and fitting the weighted outcome
+model.
+
+## Installation
+
+You can install the development version of msmobs from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("zabore/msmobs")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+library(msmobs)
+## basic example code
+```

@@ -33,3 +33,9 @@ use_testthat()
 
 # Setup continuous integration - R CMD check and code coverage
 use_github_action("check-standard")
+usethis::use_github_action("test-coverage")
+
+# Changelog and contribution scaffolding
+usethis::use_news_md()
+usethis::use_code_of_conduct("emily.zabor@gmail.com")
+usethis::use_lifecycle_badge("experimental")

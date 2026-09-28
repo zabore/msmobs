@@ -1,8 +1,11 @@
 Package: msmobs
 Title: Fit Marginal Structural Models for Observational Data
 Version: 0.0.0.9000
-Authors@R: 
-    person("Emily", "Zabor", , "emily.zabor@gmail.com", role = c("aut", "cre"))
+Authors@R: c(
+    person("Emily", "Zabor", , "emily.zabor@gmail.com", role = c("aut", "cre")),
+    person("Junhui", "Mi", , "mijunhui65@hotmail.com", role = "aut"),
+    person("Alex", "Zajichek", , "zajicha2@ccf.org", role = "aut")
+    )
 Description: Estimate weights and fit pooled logistic regression outcome
     models for marginal structural models in observational data analyses.
 License: MIT + file LICENSE

@@ -39,3 +39,6 @@ usethis::use_github_action("test-coverage")
 usethis::use_news_md()
 usethis::use_code_of_conduct("emily.zabor@gmail.com")
 usethis::use_lifecycle_badge("experimental")
+
+# Check fail without any actual tests, set a placeholder
+usethis::use_test("placeholder")
